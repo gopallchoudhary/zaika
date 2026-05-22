@@ -50,10 +50,10 @@ function CustomDrawerContent(props: any) {
           )}
           <View style={styles.profileInfo}>
             <Text variant="bold" size="md" color="charcoal" numberOfLines={1}>
-              {user?.name || "Gopal Chaudhary"}
+              {user?.name || "Aria Chen"}
             </Text>
             <Text variant="medium" size="xs" color="textGrey" numberOfLines={1} style={styles.emailText}>
-              {user?.email || "gopalchaudhary@example.com"}
+              {user?.email || "ariachen@example.com"}
             </Text>
           </View>
         </View>

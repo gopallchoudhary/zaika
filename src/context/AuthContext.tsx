@@ -51,13 +51,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async (email: string, password: string): Promise<boolean> => {
     // Validate against mock user credentials
-    if (email.toLowerCase() === "gopalchaudhary@example.com" && password === "232hod#ld3o") {
+    if (email.toLowerCase() === "ariachen@example.com" && password === "232hod#ld3o") {
       const mockUser: User = {
         id: "usr_001",
-        name: "Gopal Chaudhary",
-        email: "gopalchaudhary@example.com",
+        name: "Aria Chen",
+        email: "ariachen@example.com",
         phone: "+91 9876543210",
-        avatarUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+        avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
         addresses: [
           {
             id: "addr_001",

@@ -55,10 +55,10 @@ export default function ProfileScreen({ navigation }: Props) {
             </View>
           )}
           <Text variant="bold" size="lg" color="charcoal" style={styles.name}>
-            {user?.name || "Gopal Chaudhary"}
+            {user?.name || "Aria Chen"}
           </Text>
           <Text variant="medium" size="xs" color="textGrey">
-            {user?.email || "gopalchaudhary@example.com"}
+            {user?.email || "ariachen@example.com"}
           </Text>
           <Text variant="semibold" size="xs" color="primary" style={styles.joinedText}>
             Member since {formatDate(user?.joinedAt)}
