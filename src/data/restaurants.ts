@@ -1,0 +1,175 @@
+import { Restaurant } from './types';
+
+export const RESTAURANTS: Restaurant[] = [
+  {
+    id: 'r1',
+    name: 'Burger Palace',
+    cuisine: 'American · Burgers',
+    rating: 4.5,
+    reviewCount: 1248,
+    deliveryTime: '20–30 min',
+    deliveryFee: 29,
+    priceRange: '$$',
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80',
+    isOpen: true,
+    isFeatured: true,
+    tags: ['Bestseller', 'Fast Delivery'],
+    address: '12 MG Road, Jabalpur, MP 482001',
+  },
+  {
+    id: 'r2',
+    name: 'Spice Garden',
+    cuisine: 'Indian · North Indian',
+    rating: 4.8,
+    reviewCount: 3421,
+    deliveryTime: '30–45 min',
+    deliveryFee: 0,
+    priceRange: '$$$',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80',
+    isOpen: true,
+    isFeatured: true,
+    tags: ['Veg Friendly', 'Free Delivery'],
+    address: '45 Napier Town, Jabalpur, MP 482001',
+  },
+  {
+    id: 'r3',
+    name: 'Pizza Amore',
+    cuisine: 'Italian · Pizza',
+    rating: 4.3,
+    reviewCount: 892,
+    deliveryTime: '25–35 min',
+    deliveryFee: 39,
+    priceRange: '$$',
+    imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80',
+    isOpen: true,
+    isFeatured: false,
+    tags: ['Wood Fired', 'Thin Crust'],
+    address: '7 Vijay Nagar, Jabalpur, MP 482002',
+  },
+  {
+    id: 'r4',
+    name: 'Dragon Wok',
+    cuisine: 'Chinese · Asian Fusion',
+    rating: 4.1,
+    reviewCount: 567,
+    deliveryTime: '35–50 min',
+    deliveryFee: 49,
+    priceRange: '$$',
+    imageUrl: 'https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&q=80',
+    isOpen: true,
+    isFeatured: false,
+    tags: ['Spicy', 'Noodles & Rice'],
+    address: '23 Civil Lines, Jabalpur, MP 482001',
+  },
+  {
+    id: 'r5',
+    name: 'The Breakfast Club',
+    cuisine: 'Café · All-Day Breakfast',
+    rating: 4.6,
+    reviewCount: 2103,
+    deliveryTime: '15–25 min',
+    deliveryFee: 19,
+    priceRange: '$',
+    imageUrl: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&q=80',
+    isOpen: true,
+    isFeatured: true,
+    tags: ['Healthy', 'Quick Bites'],
+    address: '88 South Civil Lines, Jabalpur, MP 482001',
+  },
+  {
+    id: 'r6',
+    name: 'Sushi Sakura',
+    cuisine: 'Japanese · Sushi',
+    rating: 4.7,
+    reviewCount: 741,
+    deliveryTime: '40–55 min',
+    deliveryFee: 59,
+    priceRange: '$$$$',
+    imageUrl: 'https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=600&q=80',
+    isOpen: false,
+    isFeatured: false,
+    tags: ['Premium', 'Fresh Daily'],
+    address: '3 Sadar, Jabalpur, MP 482001',
+  },
+  {
+    id: 'r7',
+    name: 'Taco Fiesta',
+    cuisine: 'Mexican · Tex-Mex',
+    rating: 4.2,
+    reviewCount: 438,
+    deliveryTime: '20–35 min',
+    deliveryFee: 29,
+    priceRange: '$$',
+    imageUrl: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80',
+    isOpen: true,
+    isFeatured: false,
+    tags: ['Spicy', 'Wraps'],
+    address: '55 Gorakhpur, Jabalpur, MP 482001',
+  },
+  {
+    id: 'r8',
+    name: 'Green Bowl',
+    cuisine: 'Healthy · Salads & Bowls',
+    rating: 4.4,
+    reviewCount: 1087,
+    deliveryTime: '15–25 min',
+    deliveryFee: 0,
+    priceRange: '$$$',
+    imageUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80',
+    isOpen: true,
+    isFeatured: true,
+    tags: ['Vegan', 'Gluten Free', 'Free Delivery'],
+    address: '101 Wright Town, Jabalpur, MP 482002',
+  },
+  {
+    id: 'r9',
+    name: 'Biryani Blues',
+    cuisine: 'Indian · Biryani',
+    rating: 4.9,
+    reviewCount: 5672,
+    deliveryTime: '30–45 min',
+    deliveryFee: 0,
+    priceRange: '$$',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80',
+    isOpen: true,
+    isFeatured: true,
+    tags: ['Bestseller', '#1 in City', 'Free Delivery'],
+    address: '9 Adhartal, Jabalpur, MP 482004',
+  },
+  {
+    id: 'r10',
+    name: 'The Dessert Lab',
+    cuisine: 'Desserts · Beverages',
+    rating: 4.6,
+    reviewCount: 1934,
+    deliveryTime: '20–30 min',
+    deliveryFee: 19,
+    priceRange: '$$',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80',
+    isOpen: true,
+    isFeatured: false,
+    tags: ['Sweet Treats', 'Shakes & More'],
+    address: '66 Ranital, Jabalpur, MP 482002',
+  },
+];
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+export const getFeaturedRestaurants = (): Restaurant[] =>
+  RESTAURANTS.filter((r) => r.isFeatured && r.isOpen);
+
+export const getOpenRestaurants = (): Restaurant[] =>
+  RESTAURANTS.filter((r) => r.isOpen);
+
+export const getRestaurantById = (id: string): Restaurant | undefined =>
+  RESTAURANTS.find((r) => r.id === id);
+
+export const searchRestaurants = (query: string): Restaurant[] => {
+  const q = query.toLowerCase();
+  return RESTAURANTS.filter(
+    (r) =>
+      r.name.toLowerCase().includes(q) ||
+      r.cuisine.toLowerCase().includes(q) ||
+      r.tags.some((t) => t.toLowerCase().includes(q)),
+  );
+};
